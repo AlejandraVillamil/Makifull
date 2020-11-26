@@ -1,0 +1,74 @@
+<div id="cart_container" class="container-fluid row">
+
+    <div id="principal" class=" col-md-9">
+        <h2 class="h3 myText" id="titulo1">Mi Carrito</h2>
+        <div class="d-none " id="emptyCart">
+            <img src="./assets/img/sad.png" alt="sadFlower" id="emptyCartImg">
+            <p class="myText">El carrito está vacío</p>
+
+            <a href="./index.html" class="myText mylink">Seguir comprando</a>
+        </div>
+        <div class="container serviceslist" id="cartItems">
+            <div class="row servicioEnLista">
+                <div class="col-9 col-md-4">
+                    Servicio x
+                </div>
+                <div class="col-5 d-none d-md-inline">
+                    Descripcion del prestador y el servicio
+                </div>
+                <div class="col-2">
+                    $20.000
+                </div>
+                <div class="col-1">
+                    <button class="deleteItem">X</button>
+                </div>
+            </div>
+            <div class="row servicioEnLista">
+                <div class="col-9 col-md-4">
+                    Servicio x
+                </div>
+                <div class="col-5 d-none d-md-inline">
+                    Descripcion del prestador y el servicio
+                </div>
+                <div class="col-2">
+                    $20.000
+                </div>
+                <div class="col-1">
+                    <button class="deleteItem ">X</button>
+                </div>
+            </div>
+        </div>
+        <button class="justify-content-center" id="clearCart" onclick="clearCart()"> Vaciar carrito</button>
+    </div>
+
+    <aside class=" col-md-3">
+        <h2 class="h4 text-center myText" id="titulo2">Resumen de Pedido</h2>
+        <div id="cartSummary" class="myText container">
+            <div class="row">
+                <p class="myText mylist small col-8">Subtotal</p>
+                <p class="myText  small col-4">$20.200</p>
+            </div>
+            <div class="row lastInList">
+                <p class="myText mylist small col-8">Descuentos</p>
+                <p class="myText small col-4">$20.200</p>
+
+            </div>
+
+            <div class="row firstInList">
+                <h4 class="h6 myText col-8"> Subtotal</h4>
+                <p class="myText  col-4">$20.200</p>
+            </div>
+            <div class="row lastInList">
+                <p class="myText mylist small col-8">IVA</p>
+                <p class="myText  small  col-4 ">$20.200</p>
+            </div>
+            <div class="row firstInList">
+                <h4 class="h5 myText col-8"> Total</h4>
+                <p class="myText   col-4">$20.200</p>
+            </div>
+
+            <button class="justify-content-center" id="checkOutbtn"> Finalizar compra</button>
+        </div>
+
+    </aside>
+</div>

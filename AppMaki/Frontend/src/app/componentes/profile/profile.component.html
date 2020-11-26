@@ -1,0 +1,199 @@
+<main class="mymain">
+    <nav class="container">
+        <section id="userInfo" class="d-flex flex-column justify-content-center align-items-center bg-info p-2">
+            <img src="../../../assets/img/face_co3.png" width="100vw" height="100vw" class="rounded-circle" alt="">
+            <h2 class="text-white">María Rojas</h2>
+            <p class="text-white">Diseñadora gráfica egresada de la Universidad San Marino</p>
+        </section>
+
+        <section id="userMenu" class="container p-0">
+
+            <div class=" menuPerfil d-flex">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item myPill " role="presentation">
+                        <a class="nav-link active rounded-0" id="pills-info-tab" data-toggle="pill"
+                            href="#pills-info" role="tab" aria-controls="pills-info" aria-selected="true">Mis
+                            datos</a>
+                    </li>
+                    <li class="nav-item  myPill" role="presentation">
+                        <a class="nav-link  rounded-0" id="pills-pedidos-tab" data-toggle="pill"
+                            href="#pills-pedidos" role="tab" aria-controls="pills-pedidos" aria-selected="false">Mis
+                            pedidos</a>
+                    </li>
+                    <li class="nav-item  myPill" role="presentation">
+                        <a class="nav-link rounded-0" id="pills-ventas-tab" data-toggle="pill" href="#pills-ventas"
+                            role="tab" aria-controls="pills-ventas" aria-selected="false">Mis ventas</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-------------------------------- INICIO GRUPO DE PESTAÑAS  ------------------------------------->
+            <div class="tab-content" id="pills-tabContent">
+
+                <!-------------------------------- Inicio pestaña Mi perfil  ------------------------------------->
+                <div class="tab-pane fade show active" id="pills-info" role="tabpanel"
+                    aria-labelledby="pills-info-tab">
+                    <div class="p-5">
+                        <h3>Información personal</h3>
+
+                            <div class="form-group avatar">
+                                <figure class="figure col-md-2 col-sm-3 col-xs-12">
+                                    <img class="img-rounded img-responsive" src="../../../assets/img/face_co3.png"
+                                        width="60vw" height="60vw">
+                                </figure>
+                                <div class="form-inline col-md-10 col-sm-9 col-xs-12">
+                                    <input type="file" class="file-uploader pull-left">
+                                    <button type="submit" class="btn btn-sm btn-default-alt pull-left">Cambiar
+                                        imagen</button>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name">Usuario</label>
+                                <input type="text" class="form-control" id="userName" placeholder="Usuario">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" class="form-control" id="name" placeholder="Nombre">
+                            </div>
+                            <hr>
+                            <h3>Información de contacto</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Correo eletrónico</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Ingrese un correo electrónico">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="twitter">Twitter</label>
+                                    <input type="text" class="form-control" id="twitter"
+                                        placeholder="Usuario de Twitter">
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="linkedin">Linkedin</label>
+                                    <input type="text" class="form-control" id="linkedin"
+                                        placeholder="Usuario de Linkedin">
+                                </div>
+
+                                <br>
+
+                                <button type="submit" class="btn text-white"
+                                    style="background-color:#272343">Actualizar perfil</button>
+                                <button type="submit" class="btn btn-secondary text-white">Cancelar</button>
+                            </form>
+                    </div>
+                </div>
+                <!------------------------------------ Fin pestaña Mi perfil  ------------------------------------->
+
+                <!-------------------------------- Inicio pestaña Mis pedidos  ------------------------------------->
+                <div class="tab-pane fade" id="pills-pedidos" role="tabpanel" aria-labelledby="pills-pedidos-tab">
+                    <h3 class="px-5 pt-5">Todos mis servicios comprados</h3>
+                    <div class="container d-flex p-5 justify-content-center flex-wrap">
+                        <div class="row  m-1">
+                            <div class="card text-center " style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Pedido 001</b></h5>
+                                    <p class="card-text">Descripción del servicio.</p>
+                                    <h6 class="Date font-italic"><b>Fecha:</b> 05/09/2020</h6>
+                                    <h6 class="status font-italic"><b>Estado:</b>Nuevo</h6>
+                                            <h3 class="card-title">$60.000</h3>
+                                            <a href="#" class="btn text-white"
+                                                style="background-color:#272343">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row m-1">
+                            <div class="card text-center " style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Pedido 002</b></h5>
+                                    <p class="card-text">Descripción del servicio.</p>
+                                    <h6 class="Date font-italic"><b>Fecha:</b> 03/09/2020</h6>
+                                    <h6 class="status font-italic"><b>Estado:</b> Nuevo</h6>
+                                            <h3 class="card-title">$30.000</h3>
+                                            <a href="#" class="btn text-white"
+                                                style="background-color:#272343">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row m-1">
+                            <div class="card text-center" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Pedido 003</b></h5>
+                                    <p class="card-text">Descripción del servicio.</p>
+                                    <h6 class="Date font-italic"><b>Fecha:</b> 09/09/2020</h6>
+                                    <h6 class="status font-italic"><b>Estado:</b>Nuevo</h6>
+                                            <h3 class="card-title">$50.000</h3>
+                                            <a href="#" class="btn text-white" style="background-color:#272343">En
+                                                curso</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-------------------------------- Fin pestaña Mis pedidos ------------------------------------->
+
+                <!-------------------------------- Inicio pestaña Mis Ventas  ------------------------------------->
+
+                <div class="tab-pane fade" id="pills-ventas" role="tabpanel" aria-labelledby="pills-ventas-tab">
+                    <h3 class="px-5 pt-5">Todos mis servicios vendidos</h3>
+                    <div class="container d-flex p-5 justify-content-center flex-wrap">
+                        <div class="row m-1">
+                            <div class="card text-center " style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Pedido 001</b></h5>
+                                    <p class="card-text">Descripción del servicio.</p>
+                                    <h6 class="Date font-italic"><b>Fecha:</b> 30/07/2020</h6>
+                                    <h6 class="status font-italic"><b>Estado:</b> En curso</h6>
+                                            <h3 class="card-title">$60.000</h3>
+                                            <a href="#" class="btn text-white"
+                                                style="background-color:#272343">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row m-1">
+                            <div class="card text-center " style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Pedido 002</b></h5>
+                                    <p class="card-text">Descripción del servicio.</p>
+                                    <h6 class="Date font-italic"><b>Fecha:</b> 30/08/2020</h6>
+                                    <h6 class="status font-italic"><b>Estado:</b> Finalizado</h6>
+                                            <h3 class="card-title">$30.000</h3>
+                                            <a href="#" class="btn text-white"
+                                                style="background-color:#272343">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row m-1">
+                            <div class="card text-center" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Pedido 003</b></h5>
+                                    <p class="card-text">Descripción del servicio.</p>
+                                    <h6 class="Date font-italic"><b>Fecha:</b> 01/08/2020</h6>
+                                    <h6 class="status font-italic"><b>Estado:</b> En curso</h6>
+                                            <h3 class="card-title">$50.000</h3>
+                                            <a href="#" class="btn text-white" style="background-color:#272343">En
+                                                curso</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------------- Fin pestaña Mis Ventas  ------------------------------------->
+
+ 
+            </div>
+                      <!-------------------------------- FIN GRUPO DE PESTAÑAS  ------------------------------------->
+
+        </section>
+    </nav>
+</main>

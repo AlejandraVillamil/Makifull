@@ -1,0 +1,26 @@
+.menuPerfil{
+    background: #272343;
+}
+
+/*Pestaña inactiva*/
+.nav-pills .myPill .nav-link:not(.active) {
+    background: #272343;
+    color:white;
+}
+
+/* Pestaña inactiva */
+/* .myLink:active{
+    background-color: red !important;
+    color: white;
+} */
+
+
+/*Pestaña inactiva*/
+.nav-pills .myPill >a {
+    background:rgb(97, 97, 136);
+    color:white;
+}
+
+.mymain{
+    margin-top: 10vh;
+}

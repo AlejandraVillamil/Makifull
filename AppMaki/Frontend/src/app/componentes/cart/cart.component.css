@@ -1,0 +1,93 @@
+.myText {
+  color: #272343 !important;
+}
+
+#titulo1,
+#titulo2 {
+  margin-bottom: 30px;
+}
+
+.deleteItem {
+  width: 18px;
+  height: 18px;
+  background-color: #272343;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 7pt;
+}
+
+.servicioEnLista {
+  margin-top: 5px;
+}
+
+.serviceslist {
+  padding-top: 35px;
+}
+
+aside h2 {
+  padding-bottom: 20px;
+}
+
+aside .mylist {
+  padding-left: 5px;
+}
+
+#checkOutbtn {
+  background-color: #272343;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+  width: 100%;
+  font-weight: 100;
+}
+
+#cartSummary {
+  border-left: #272343 0.5px solid;
+  height: 300px;
+  padding-left: 30px;
+}
+
+#cartSummary .lastInList {
+  border-bottom: gray 0.5px solid;
+  height: 25px;
+}
+
+#cartSummary .firstInList {
+  padding-top: 15px;
+}
+
+#clearCart {
+  background-color: #272343;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+  width: 30%;
+  font-weight: 100;
+}
+
+#clearCart:hover,
+#checkOutbtn:hover {
+  background-color: #BAE8E8;
+  color: #272343;
+}
+
+#emptyCartImg {
+  opacity: 0.3;
+  width: 100px;
+  height: auto;
+}
+
+.mylink {
+  color: #272343;
+  text-decoration: underline;
+}
+
+#cart_container {
+  padding: 15vh;
+  margin: auto;
+}

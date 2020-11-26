@@ -1,0 +1,301 @@
+
+ul{
+    color: white;
+}
+
+/*Estilos del POP-UP del LOGIN*/
+.container_popup{
+height: auto;
+align-content: center;
+}
+
+
+.card2{
+margin-top: auto;
+margin-bottom: auto;
+width: 275px;
+background-color: rgba(0, 0, 0, 0.329) !important;
+z-index: 2;
+}
+
+.social_icon span{
+font-size: 45px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 70px;
+top: -10px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* Seccion 1 */
+.head{
+    background-image: linear-gradient(to top,  rgba(39,35,67,0.6)  100%, #BAE8E8 50%),
+    url(../../../assets/img/home-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    .titulo{
+        font-size: 60px;
+        margin-bottom: 25px;
+        color: #ffffff;
+    }
+    .copy{
+        font-weight: 300;
+        font-size: 25px;
+        color: #ffffff;
+    }
+
+
+
+/* seccion 2*/
+/* Nuestro servicio */
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #272343;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.contenedor-servicio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.servicio > h3{
+    font-weight: 300;
+    color: #272343;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.checklist-servicio{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.services{
+    margin-bottom: 20px;
+    width: 33%;
+    padding: 5px;
+
+}
+    .n-services{
+        color: #272343;
+        margin-bottom: 7px;
+    }
+        .number{
+            display: inline-block;
+            background: linear-gradient(to top, #09203f 0%, #537895 100%);
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            font-weight: 700;
+            line-height: 30px;
+            color: #fff;
+            margin-right: 5px;
+        }
+
+    .servicio a{
+        margin:28px 0 0 0;
+        padding: 12px 0;
+        width: 130px;
+        display: inline-block;
+        background: #272343;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 14px;
+        border-radius: 5px;
+        box-shadow: 0 8px 32px rgba(186, 232, 232, 0.46);
+    }
+        .servicio a:hover{
+            background: #E3F6F5;
+            text-decoration: none;
+            color: #1a1a1a;
+        }
+
+
+/* Categorias de servicios profesionales */
+
+.categoria{
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #000;
+    opacity: 0.8;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+    .servi-fila{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+        .servi-item{
+            padding: 10px;
+            width: auto;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+            .servi-item a{
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+            }
+            .servi-item p{
+                padding: 5px;
+                text-align: center;
+            }
+        
+        .servi-item:hover{
+            background-color: #BAE8E8;
+        }
+
+/* Card de precios de servicio */
+.card-servi{
+    background-color: #272343;
+
+}
+
+.card-servi h2{
+color:white;
+
+}
+
+
+.card-servi a{
+    margin:28px 0 0 0;
+    padding: 12px 0;
+    width: 130px;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    color: #272343;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(186, 232, 232, 0.46);
+    }
+    
+    .card-servi a:hover{
+        background-color:#E3F6F5;
+        }
+/* Miembros */
+.cards{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+}       
+    .card{
+        margin: 20px 0;
+        width: 30%;
+        height: 250px;
+        text-align: center;
+        padding: 20px;
+        border: none !important; 
+
+        /* box-shadow: 0px 0px 4px rgba(52, 73,94, 0.84); */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+        .card img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .card > a{
+            text-decoration: none; 
+            color: rgba(52, 73,94, 0.84);
+        }
+        .card > a:hover{
+            text-decoration: none;
+            background-color: #E3F6F5;
+        }
